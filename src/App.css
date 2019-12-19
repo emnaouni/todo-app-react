@@ -1,38 +1,47 @@
-.App {
+.Complete {
+  text-decoration: line-through;
+}
+.btn{
+  margin-top: 18px;
+    padding: 7px 40px;
+    margin: 10px 46%;
+    background-color: lightblue;
+    font-size: x-large;
+    font-family: cursive;
+    border-color: lightblue;
+    color: white;
+    
+}
+.btn:hover ,a:hover{
+  background-color:lightseagreen!important;
+}
+h2{
   text-align: center;
+    color: cadetblue;
+}
+input{
+  border: 5px solid pink!important;
+    border-radius: 25px!important;
+    margin: 0 20%;
+    width: 61%!important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.jumbotron p ,h1{
+  color: lightseagreen;
+    text-align: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.liste{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-bottom: 10px;
 }
-
-.App-link {
-  color: #61dafb;
+.liste h5,button{
+  margin-right:17px;
 }
+button{
+  border-radius: 11px;
+  background-color: lightblue;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  font-family: cursive;
+  border-color: lightblue;
 }
